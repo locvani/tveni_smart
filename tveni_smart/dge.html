@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>&#8224;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="java/dge.css" type="text/css" />
+</head>
+<body onLoad="HomeButton()">
+<p align="center"><b class="prz">გთხოვთ დაელოდოთ!</b></p>
+<p align="center"><b>მიმდინარეობს გადასვლა კალენდრის დღევანდელ დღეზე.</b><br>
+<br>
+<script language="JavaScript">
+//-------
+function HomeButton()
+{
+    	var bbbb=new Date();
+		var to=bbbb.getTimezoneOffset()/60;
+		var to=to*60*60*1000;
+
+var today=new Date();
+tm=today.getMonth()+1;
+tdb=today.getDate();
+tyb=today.getYear();
+tyb=tyb-Math.floor(tyb/100)*100+2000;
+utc=Date.UTC(tyb,tm-1,tdb);
+utc=utc-1123200000+to;
+utc+=60*60*1000;// zafxulis dro?
+od=new Date(utc);
+oldm=od.getMonth()+1;
+oldd=od.getDate();
+var months=new Array("ian","teb","mar","apr","mai","ivn","ivl","agv","seq","oqt","noe","dek");
+location.href=("dgeebi/"+oldd+"_"+months[oldm-1]+".html");
+}
+//-----------
+</script>
+</body>
+</html>
+

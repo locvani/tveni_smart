@@ -1,0 +1,41 @@
+body { margin:0; font-family:Arial, Sylfaen; font-size:12pt; color:#000055; background: url(../images/etrati_e.jpg); }
+p, div  { font-family:Arial, Sylfaen; font-size:12pt; }
+a:link { color:#000066; }
+a:visited { color:#000066; }
+a:hover { color:#FCF574; }
+.dml { font-family: Arial, Sylfaen; color: #800055; border:1px #F2F7F9 solid; background-color: #F2F7F9; }
+.sim  { font-family:Arial, Sylfaen; font-size:10pt; color:#800055; }
+.my { border-top: 1px dashed #CC0066; border-right: none; border-bottom: none; border-left: none; }
+.chrdl_grn { text-shadow:1px 2px 2px #000; font-size:18pt; font-weight:bold; text-align:center; color:green; padding:7px; }
+.chrdl_rd { filter:Shadow(Color='#C0C0C0', Direction=130 ); width: 100%; height: 55; font-size: 20pt; font-weight: bold; text-align: center; color: red; letter-spacing: 3px; }
+.lst { list-style-image: url(jvari.gif); font-family: Arial, Sylfaen; }
+hr#1 { background:#3535FF; border-top:1px solid #3535FF; color:#3535FF; height:1px; }
+#pr  { color: purple; }
+#bl  { color: blue; }
+#rd  { color: red; }
+#dg { color:#ff33cc; }
+#mrg_t { margin-top:-12px; }
+.pasqa  { font-size: xx-small; }
+.pr  { color: purple; }
+.bl  { color: blue; }
+.rd  { color: red; }
+.ia  { color: #006464; text-align:center; }
+.dg { color:#ff33cc; }
+.grn { color:#030; font-size:14pt; }
+.t8 { font-size: 8pt; }
+/*-----but------*/
+.but { width:33px; height:30px; cursor:default;
+background: url(../images/but.gif) no-repeat; color:#003; text-decoration:none; text-align:center; font-size:16px; }
+.but:hover { width:33px; height:30px; cursor:default;
+background: url(../images/but2.gif) no-repeat; color:#003; text-decoration:none; text-align:center; font-size:16px; }
+/*-----but------*/
+/*-----prab------*/
+.prab { width:210px; height:30px; cursor:default;
+background: url(../images/prab.gif) no-repeat; color:#003; text-decoration:none; }
+.prab:hover{ width:210px; height:30px; cursor:default;
+background: url(../images/prab2.gif) no-repeat; color:#903; text-decoration:none; }
+/* text-shadow:2px 2px 1px #333; */
+/*-----prab------  border:1px outset #D9E0E8; table-layout:fixed; */
+.tabl { padding-left:33px; }
+.zebn { width: 200px; }
+.dacl { float: right;}

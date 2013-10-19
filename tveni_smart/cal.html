@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>სათვეო კალენდარი</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="java/style.css" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" />
+<script language="JavaScript" src="java/base.js"></script>
+</head>
+<body>
+<script language="javascript" type="text/javascript" src="java/zeda.js"></script>
+<div class="marg">
+<table cellspacing="3" cellpadding="5" width="100%" border="0">
+<tr><td colspan="2">
+<iframe name="mainFrame" id="mainFrame" src="dge.html" frameborder="0" height="123" width="100%" scrolling="auto" allowtransparency>თქვენი ბროუზერი ვერ აღიქვამს IFRAME-ს</iframe></td></tr>
+<tr>
+<td>
+<!--start-->
+<script language="javascript" src="java/cal.js"></script>
+<table cellspacing="1" cellpadding="0" width="400" class="bjbq">
+          <tbody>
+           <tr>
+            <td valign="top" width="100" rowspan="2">
+             <select id="Month" ondblclick="test()" onChange="OnMonth()" size="16" name="Month">
+              <SCRIPT language="JavaScript">GetList()</script>
+             </select>
+            </td>
+            <td valign="top" width="300" bgcolor="#efecf2">
+             <div align="right">
+<script language="javascript">
+	var m=1;
+	for(m=1;m<=13;m++)
+	{
+	    GetTable(m,0);
+	    GetTable(m,1);
+	}
+</script>
+           </div>
+             <div align="right">
+             <input id="Old" onClick="OnMonth()" type="radio" value="old" name="R1">ძველი სტილით<br />
+             <input onClick="OnMonth()" type="radio" checked value="new" name="R1">ახალი სტილით</div>
+            </td>
+           </tr>
+           <tr>
+            <td width="300">
+            </td>
+           </tr>
+          </tbody>
+         </table>
+<script language="javascript">
+	CurMonth();
+    OnMonth();
+</script>
+<!--and-->
+</td>
+<td>
+<table align="center" bgcolor="#E7E7FB" class="bjbm">
+<tr><td bgcolor="#ff99cc"><font color="#1303A5">28</font></td><td class="t10">აღდგომა და ათორმეტი დღესასწაული</td></tr>
+<tr><td><font color="#ff33cc">28</font></td><td class="t10">დიდი დღესასწაულები</td></tr>
+<tr><td><font color="#009900">28</font></td><td class="t10">დღესასწაულები</td></tr>
+<tr><td bgcolor="#ffffcc"><font color="#1303A5">28</font></td><td class="t10">მსგეფსი ხსნილია</td></tr>
+<tr><td bgcolor="#ffffff"><font color="#1303A5">28</font></td><td class="t10">ყველიერი</td></tr>
+<tr><td bgcolor="#cccccc"><font color="#1303A5">28</font></td><td class="t10">მარხვა</td></tr>
+<tr><td bgcolor="#b6aa8b"><font color="#1303A5">28</font></td><td class="t10">მიცვალებულთა დღეები</td></tr></table>
+</td></tr></table>
+
+</div>
+<script type="text/javascript" src="java/jquery-1.3.2.js"></script>
+<script language="JavaScript" type="text/javascript" src="java/qveda.js"></script>
+ </body>
+ </html>

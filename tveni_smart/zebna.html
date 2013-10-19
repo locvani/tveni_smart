@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><!--SMP-->
+<title>სათვეო კალენდარი</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="java/style.css" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" />
+<script language="JavaScript" src="java/base.js"></script>
+<script language="JavaScript" src="srch.js"></script>
+<script language="javascript" src="java/geo_chk.js" type="text/javascript"></script>
+<style type="text/css">
+.t8 { font-size: 8pt; }
+.but { width:33px; height:30px; cursor:default;
+background: url(images/but.gif) no-repeat; color:#003; text-decoration:none; text-align:center; font-size:16px; }
+.but:hover { width:33px; height:30px; cursor:default;
+background: url(images/but2.gif) no-repeat; color:#003; text-decoration:none; text-align:center; font-size:16px; }
+.prab { width:210px; height:30px; cursor:default;
+background: url(images/prab.gif) no-repeat; color:#003; text-decoration:none; }
+.prab:hover{ width:210px; height:30px; cursor:default;
+background: url(images/prab2.gif) no-repeat; color:#903; text-decoration:none; }
+.zebn { width: 200px; }
+</style>
+</head>
+<body onLoad="SMPSetFocus()"> 
+<script language="javascript" type="text/javascript" src="java/zeda.js"></script>
+
+<form name="formSearch" action="javascript:SMPStartSearch() //">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<input name="txtSearch" id="txtSearch" onKeyup="return show_chars_left();" class="zebn" />
+<input name="send" type="submit" value="ძებნა" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="reset" type="reset" value="დაცლა" />
+</td></tr>
+<tr><td style="padding-top:8px;">
+<table align="center" border="0" cellspacing="3" cellpadding="0">
+<tr>
+<td onClick="insert('ა');" class="but">ა</td></td>
+<td onClick="insert('ბ');" class="but">ბ</td>
+<td onClick="insert('გ');" class="but">გ</td>
+<td onClick="insert('დ');" class="but">დ</td>
+<td onClick="insert('ე');" class="but">ე</td>
+<td onClick="insert('ვ');" class="but">ვ</td>
+<td onClick="insert('ზ');" class="but">ზ</td>
+<td onClick="insert('ჱ');" class="but">ჱ</td>
+<td onClick="insert('თ');" class="but">თ</td>
+<td onClick="insert('ი');" class="but">ი</td>
+<td onClick="insert('კ');" class="but">კ</td>
+<td onClick="insert('ლ');" class="but">ლ</td>
+<td onClick="insert('მ');" class="but">მ</td>
+<td onClick="insert('ნ');" class="but">ნ</td>
+<td onClick="insert('ჲ');" class="but">ჲ</td>
+<td onClick="insert('ო');" class="but">ო</td></tr>
+<tr>
+<td onClick="insert('პ');" class="but">პ</td>
+<td onClick="insert('ჟ');" class="but">ჟ</td>
+<td onClick="insert('რ');" class="but">რ</td>
+<td onClick="insert('ს');" class="but">ს</td>
+<td onClick="insert('ტ');" class="but">ტ</td>
+<td onClick="insert('ჳ');" class="but">ჳ</td>
+<td onClick="insert('უ');" class="but">უ</td>
+<td onClick="insert('ფ');" class="but">ფ</td>
+<td onClick="insert('ქ');" class="but">ქ</td>
+<td onClick="insert('ღ');" class="but">ღ</td>
+<td onClick="insert('ყ');" class="but">ყ</td>
+<td onClick="insert('შ');" class="but">შ</td>
+<td onClick="insert('ჩ');" class="but">ჩ</td>
+<td onClick="insert('ც');" class="but">ც</td>
+<td onClick="insert('ძ');" class="but">ძ</td>
+<td onClick="insert('წ');" class="but">წ</td></tr>
+<tr>
+<td onClick="insert('ჭ');" class="but">ჭ</td>
+<td onClick="insert('ხ');" class="but">ხ</td>
+<td onClick="insert('ჴ');" class="but">ჴ</td>
+<td onClick="insert('ჯ');" class="but">ჯ</td>
+<td onClick="insert('ჰ');" class="but">ჰ</td>
+<td colspan="6" onClick="insert('&nbsp;');" class="prab">&nbsp;</td>
+<td onClick="insert('ჵ');" class="but">ჵ</td>
+<td onClick="insert('-');" class="but">-</td>
+<td onClick="insert('I');" class="but">I</td>
+<td onClick="insert('V');" class="but">V</td>
+<td onClick="insert('X');" class="but">X</td>
+</tr></table></td>
+</tr></table>
+</form>
+<div class="t8">
+ძებნის საუკეთესო შედეგის მისაღებად უმჯობესია შეიყვანოთ 1 ან 2 სიტყვა 2 სიტყვაზე მეტი ძებნის მოთხოვნა განიხილება "როგორც ფრაზა".
+<!-- შაბლონით ძებნისათვის გამოიყენეთ ვარსკვლავი (*). -->
+</div>
+
+<iframe name="zebna" id="zebna" src="results.html" frameborder="0" height="300" width="93%" scrolling="auto">თქვენი ბროუზერი ვერ აღიქვამს IFRAME-ს</iframe>
+
+<script language="JavaScript" type="text/javascript" src="java/qveda.js"></script>
+ </body>
+ </html>
