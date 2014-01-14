@@ -1,7 +1,7 @@
 ////
 document.writeln("<div align=\"center\" id=\"nav\"><ul>");
 document.writeln("<li><img src=\"images/mz.png\" width=\"33\" height=\"33\" border=\"0\" alt=\"მზე\" /></li>");
-document.writeln("<li><a href=\"cal.html\">საეკლესიო კალენდარი 2014</a></li>");
+document.writeln("<li><a href=\"cal.html\">საეკლესიო კალენდარი 2013</a></li>");
 document.writeln("<li><img src=\"images/mt.png\" width=\"20\" height=\"33\" border=\"0\" alt=\"მთვარე\" /></li>");
 document.writeln("</ul></div>");
 

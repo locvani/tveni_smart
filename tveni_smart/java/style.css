@@ -48,7 +48,7 @@ a:hover { color:#FCF574; }
 .bl  { color: blue; }
 .rd  { color: red; }
 .gry  { color: gray; }
-.ia  { color: #006464; text-align:right; font-size:11pt; }
+.ia  { color: #006464; text-align:center; font-size:11pt; }
 .rdc  { color:#8D0000; text-align:center; font-size:14pt; text-shadow:1px 1px 1px #000; }
 .dg { color:#ff33cc; }
 .grn { color:#030; font-size:14pt; }

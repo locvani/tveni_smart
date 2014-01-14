@@ -14,7 +14,7 @@ document.write("<li><a href=\"shesaxeb.html\">ფაილის შესახ
 document.writeln("<li><a href=\"versia.html\">განახლება</a></li>");
 document.writeln("</ul></div></td></tr></table>");
 document.write('<hr align="center" width="70%" id="gr">');
-document.write('<div align="center" class="gry">&copy;  2004-2014 <a href="http://tveni.ge/" target="_blank">tveni.ge</a><br />ინტერნეტ ვერსია <a href="http://t.tveni.ge/" target="_blank">t.tveni.ge</a></div>');
+document.write('<div align="center" class="gry">&copy;  2004-2013 <a href="http://tveni.ge/" target="_blank">tveni.ge</a><br />ინტერნეტ ვერსია <a href="http://t.tveni.ge/" target="_blank">t.tveni.ge</a></div>');
 document.write('<hr id="gr" width="45%"><hr id="gr" width="55%">');
 document.write('<div align=\"center\">');
 document.write('<a href=\"http://betaneli.ge/\" target=\"_blank\"><img src=\"images/betaneli.gif\" width=\"88\" height=\"31\" border=\"0\" alt=\"ხატები\" /></a> ');
