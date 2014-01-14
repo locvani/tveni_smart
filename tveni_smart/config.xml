@@ -3,8 +3,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.tveni.tveni_smart"
 		versionCode="3"
-		versionName="1.2" 
-        version   = "1.0.1">
+		versionName="1.14" 
+        version   = "1.14.1">
 
     <!-- versionCode is optional and Android only -->
 
